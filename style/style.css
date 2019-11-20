@@ -1,0 +1,33 @@
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.fade-leave.fade-leave-active {
+    transform: translate(-1000%);
+    transition: 3000ms ease-out;
+}
+
+.button_add {
+    margin-top: 24%;
+    margin-left: 85%;
+    position: fixed;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 50%;
+    outline: 0px !important;  /* pour ne pas qu'un carré s'affiche quand on click */ 
+}
+
+.button_space {
+    padding-right: 30px;
+}
